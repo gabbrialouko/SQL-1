@@ -1,4 +1,4 @@
-# SQL-1
+ SQL
 Samples of work in SQL
 
 /*Takes the invoice total from the invoices table and in 1 column rounds it to 1, and in the other column no decimals*/
