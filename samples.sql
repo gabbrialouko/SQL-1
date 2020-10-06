@@ -7,7 +7,8 @@ ROUND(invoice_total, 1),
 ROUND(invoice_total, 0)
 FROM invoices;
 
-/*Takes the vendor name and phone number columns from the vendors table. 1st column is vendor name, 2nd is vendor name all uppercase, 3rd is vendor phone and 5th column is last word in vendor name only*/
+/*Takes the vendor name and phone number columns from the vendors table. 1st column is vendor name, 2nd is vendor name all uppercase, 
+3rd is vendor phone and 5th column is last word in vendor name only*/
 SELECT vendor_name, 
 	UPPER(vendor_name), 
     vendor_phone, 
